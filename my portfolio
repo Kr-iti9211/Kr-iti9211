@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kriti's Portfolio</title>
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Header section */
+        .header {
+            text-align: center;
+        }
+
+        .header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+
+        .header h1 {
+            margin-top: 10px;
+            font-size: 24px;
+        }
+
+        /* Information section */
+        .info-section {
+            margin-top: 20px;
+        }
+
+        .info-section p {
+            margin: 5px 0;
+        }
+
+        /* Skills section */
+        .skills-section {
+            margin-top: 20px;
+        }
+
+        .skills-section h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .skills-table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+        }
+
+        .skills-table th,
+        .skills-table td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+
+        .skills-table th {
+            background-color: #f2f2f2;
+        }
+
+        /* Hobbies section */
+        .hobbies-section {
+            margin-top: 20px;
+        }
+
+        .hobbies-section h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .hobbies-list {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <img src="https://via.placeholder.com/150" alt="Kriti's Image">
+            <h1>Kriti's Portfolio</h1>
+        </div>
+
+        <!-- Information Section -->
+        <div class="info-section">
+            <h2>My Information</h2>
+            <p><strong>Name:</strong> Kriti</p>
+            <p><strong>Roll Number:</strong> 24BME123</p>
+            <p><strong>Institute:</strong> NIT Hamirpur</p>
+            <p><strong>Department:</strong> Mechanical Engineering</p>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="skills-section">
+            <h2>My Skills</h2>
+            <table class="skills-table">
+                <tr>
+                    <th>Skill</th>
+                    <th>Proficiency Level</th>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>Basic</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Basic</td>
+                </tr>
+                <tr>
+                    <td>PHP</td>
+                    <td>Basic</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Hobbies Section -->
+        <div class="hobbies-section">
+            <h2>My Hobbies</h2>
+            <ul class="hobbies-list">
+                <li>Traveling</li>
+                <li>Exploring new places</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>
